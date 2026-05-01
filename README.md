@@ -37,7 +37,7 @@ Initially, a Power BI report was developed for an insurance client. After the la
 
 #### 2. **Data Ingestion (Lakehouse)**
 
-* Data ingested into Fabric Lakehouse using Python Notebooks
+* Data ingested into Fabric Lakehouse using Python Notebooks(runs automatically)
 * Implemented Medallion Architecture:
 
   * **Silver Layer** → Data cleaning, validation, standardization
@@ -48,12 +48,8 @@ Initially, a Power BI report was developed for an insurance client. After the la
 #### 3. **Data Warehouse (via Pipelines)**
 
 * Data moved from Lakehouse to Warehouse using Fabric Pipelines
+* Pipelines are scheduled and run automatically to ensure continuous data flow  
 
-**Why pre-created SQL Tables & Views?**
-
-* Ensures better performance
-* Provides governance and control
-* Maintains consistency across reporting
 
 ---
 
