@@ -31,7 +31,7 @@ Initially, a Power BI report was developed for an insurance client. After the la
 #### 1. **Data Source**
 
 * Insurance data coming from Salesforce
-* Includes policies, claims, customers, and payments
+* Includes policies, claims, customers, Dealers and Reservers
 
 ---
 
