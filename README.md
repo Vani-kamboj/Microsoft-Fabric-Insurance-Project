@@ -11,7 +11,7 @@ Initially, a Power BI report was developed for an insurance client. After the la
 ## 🏗️ Architecture
 
 <p align="center">
-  <img src="assets/Insurance.png" width="90%">
+  <img src="Insurance.png" width="90%">
 </p>
 
 ---
